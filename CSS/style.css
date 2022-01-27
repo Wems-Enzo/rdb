@@ -14,209 +14,213 @@ body {
 
     /* header */
 
-.header {
-    margin-top: 14px;
-    height: 100px;
-    background-color: var(--main-color-);
-}
+    .header {
+        margin-top: 14px;
+        height: 100px;
+        background-color: var(--main-color-);
+    }
 
-.header h1 {
-    margin: 0;
-    padding-top: 45px;
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Libre Baskerville', serif;
-}
+    .header h1 {
+        margin: 0;
+        padding-top: 45px;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Libre Baskerville', serif;
+    }
 
-/* menu de navigation du header */
+    /* menu de navigation du header */
 
-.header ul {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+    .header ul {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
 
-.header li {
-    float: left;
-}
+    .header li {
+        float: left;
+    }
 
-.header li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
-}
+    .header li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+    }
 
-li a:hover {
-    background-color: #111;
-  }
+    li a:hover {
+        background-color: #111;
+    }
 
-/* corp du site */
+    /* corp du site */
 
-.body h3 {
-    margin-top: 400px;
-    text-align: center;
-}
+    .body h3 {
+        margin-top: 400px;
+        text-align: center;
+    }
 
-footer {
-    position: absolute;
-    bottom: O;
-    width: 100%;
-    margin-top: 50%;
-    padding: 5px 0 5px 0;
-    text-align: center;
-    color: white;
-    background-color: #333;
-}
+    footer {
+        position: absolute;
+        bottom: O;
+        width: 100%;
+        margin-top: 50%;
+        padding: 5px 0 5px 0;
+        text-align: center;
+        color: white;
+        background-color: #333;
+    }
 
-footer a {
-    text-decoration: none;
-    color: white;
-}
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 681px) and (max-width: 1279px) {
     /* header */
 
-.header {
-    margin-top: 0;
-    height: 200px;
-    background-color: var(--main-color-);
-}
+    .header {
+        margin-top: 0;
+        height: 200px;
+        background-color: var(--main-color-);
+    }
 
-.header h1 {
-    margin: 0;
-    padding-top: 40px;
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Libre Baskerville', serif;
-}
+    .header h1 {
+        margin: 0;
+        padding-top: 40px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Libre Baskerville', serif;
+    }
 
-/* menu de navigation du header */
+    /* menu de navigation du header */
 
-.header ul {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+    .header ul {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
 
-.header li {
-    float: left;
-}
+    .header li {
+        float: left;
+    }
 
-.header li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
+    .header li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
 
-li a:hover {
-    background-color: #111;
-  }
+    li a:hover {
+        background-color: #111;
+    }
 
-/* corp du site */
+    /* corp du site */
 
-.body h3 {
-    margin-top: 400px;
-    text-align: center;
-}
+    .body h3 {
+        margin-top: 400px;
+        text-align: center;
+    }
 
-footer {
-    position: absolute;
-    bottom: O;
-    width: 100%;
-    margin-top: 50%;
-    padding: 5px 0 5px 0;
-    text-align: center;
-    color: white;
-    background-color: #333;
-}
+    footer {
+        position: absolute;
+        bottom: O;
+        width: 100%;
+        margin-top: 50%;
+        padding: 5px 0 5px 0;
+        text-align: center;
+        color: white;
+        background-color: #333;
+    }
 
-footer a {
-    text-decoration: none;
-    color: white;
-}
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     /* header */
 
-.header {
-    margin-top: 0;
-    height: 200px;
-    background-color: var(--main-color-);
-}
+    section.top-page {
+        background: url("../assets/bee.jpg");
+        background-size: cover;
+        background-position: 50% 25%;
+        height: 60vh;
+    }
 
-.header h1 {
-    margin: 0;
-    padding-top: 40px;
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Libre Baskerville', serif;
-}
+    
 
-/* menu de navigation du header */
+    .header h1 {
+        margin: 0;
+        padding-top: 60px;
+        text-align: center;
+        font-size: 90px;
+        font-family: 'Libre Baskerville', serif;
+        color: white;
+    }
 
-.header ul {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+    /* menu de navigation du header */
 
-.header li {
-    float: left;
-}
+    .header ul {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
 
-.header li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
+    .header li {
+        float: left;
+    }
 
-li a:hover {
-    background-color: #111;
-  }
+    .header li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
 
-/* corp du site */
+    li a:hover {
+        background-color: #111;
+    }
 
-.body h3 {
-    margin-top: 400px;
-    text-align: center;
-}
+    /* corp du site */
 
-footer {
-    position: absolute;
-    bottom: O;
-    width: 100%;
-    margin-top: 50%;
-    padding: 5px 0 5px 0;
-    text-align: center;
-    color: white;
-    background-color: #333;
-}
+    .body h3 {
+        margin-top: 400px;
+        text-align: center;
+    }
 
-footer a {
-    text-decoration: none;
-    color: white;
-}
+    footer {
+        position: absolute;
+        bottom: O;
+        width: 100%;
+        margin-top: 50%;
+        padding: 5px 0 5px 0;
+        text-align: center;
+        color: white;
+        background-color: #333;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }

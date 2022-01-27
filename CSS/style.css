@@ -202,12 +202,35 @@ body {
     }
 
     /* corp du site */
+    .body {
+        margin-top: 150px;
+    }
 
-    .body h3 {
-        margin-top: 400px;
+    .body img {
+        width: 80vh;
+        border-radius: 40px;
+    }
+
+    .float {
+        float: right;
+        margin-right: 150px;
+    }
+
+    .texte {
+        margin-left: 50px;
+        margin-top: 100px;
         text-align: center;
     }
 
+    .body h2 {
+        color: #111;
+    }
+
+
+
+    /* footer | pied de page */
+    
+    
     footer {
         position: absolute;
         bottom: O;

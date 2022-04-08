@@ -57,36 +57,9 @@ ul {
 
 /* Coeur */
 
-.texte p{
-    text-align: left;
-    width: 500px;
-}
-
-/* Contact */
 
 
 
-#contact {
-    text-align: center;
-    margin-top: 500px;
-    justify-content: baseline;
-}
-
-#contact i {
-    margin-right: 2px;
-}
-
-#contact li {
-    margin: 10px;
-}
-
-#contact a {
-    font-size: 20px;
-}
-
-.l_contact:hover {
-    color: var(--main-color-);
-}
 
 /* footer | pied de page */
     
@@ -95,7 +68,7 @@ footer {
     position: absolute;
     bottom: O;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 10%;
     padding: 5px 0 5px 0;
     text-align: center;
     color: white;
@@ -244,43 +217,83 @@ footer a {
 
     /* corp du site */
     .body {
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     .body img {
-        width: 80vh;
+        width: 75vh;
         border-radius: 40px;
+        margin-right: 100px;
     }
 
     .float {
         float: right;
-        margin-right: 150px;
     }
 
     .texte {
-        margin-left: 50px;
-        margin-top: 100px;
-        text-align: center;
+        padding-top: 10px;
+        margin-left: 150px;
     }
 
-    .body h2 {
+    .texte p {
+        padding-top: 100px;
+        text-align: left;
+        width: 500px;
+    }
+
+    .texte h2 {
         color: #111;
     }
 
-    /* Photos */
+    /* Contact */
+
+    #contact {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #contact i {
+        margin-right: 2px;
+    }
+
+    #contact a {
+        font-size: 20px;
+    }
+
+    .l_contact:hover {
+        color: var(--main-color-);
+    }
+
+    /* tarifs */
+    
 
     .photos img {
-        height: 400px;
-        width: 300px;
+        height: 350px;
+        width: 400px;
         border-radius: 20px;
     }
 
     .photos {
-        margin-top: 300px;
+        margin-top: 40px;
         margin-left: 20px;
         margin-right: 20px;
         display: flex;
         justify-content: space-between;
         background-size: cover;
+    }
+
+    .titre-prix {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .text-prix {
+        position: relative;
+        bottom: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
     }
 }

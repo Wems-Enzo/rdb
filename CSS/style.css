@@ -57,8 +57,9 @@ ul {
 
 /* Coeur */
 
-
-
+#presentation {
+    overflow: scroll;
+}
 
 
 /* footer | pied de page */

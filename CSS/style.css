@@ -8,7 +8,106 @@ body {
     margin: 0;
     padding-top: 0;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* header */
+
+
+.header h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+/* menu de navigation du header */
+
+.header ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.header li a:hover {
+    background-color: #111;
+}
+
+/* Coeur */
+
+.texte p{
+    text-align: left;
+    width: 500px;
+}
+
+/* Contact */
+
+
+
+#contact {
+    text-align: center;
+    margin-top: 500px;
+    justify-content: baseline;
+}
+
+#contact i {
+    margin-right: 2px;
+}
+
+#contact li {
+    margin: 10px;
+}
+
+#contact a {
+    font-size: 20px;
+}
+
+.l_contact:hover {
+    color: var(--main-color-);
+}
+
+/* footer | pied de page */
+    
+    
+footer {
+    position: absolute;
+    bottom: O;
+    width: 100%;
+    margin-top: 20%;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* --Taille téléphone-- */
 
 @media screen and (max-width: 680px) {
 
@@ -23,46 +122,38 @@ body {
     .header h1 {
         margin: 0;
         padding-top: 45px;
-        text-align: center;
         font-size: 35px;
-        font-family: 'Libre Baskerville', serif;
     }
 
     /* menu de navigation du header */
 
-    .header ul {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
-
-    .header li {
-        float: left;
-    }
-
     .header li a {
-        display: block;
-        color: white;
-        text-align: center;
         padding: 14px 10px;
-        text-decoration: none;
-    }
-
-    li a:hover {
-        background-color: #111;
     }
 
     /* corp du site */
+
+    .body {
+        margin-top: 0px;
+    }
+
+    .body img {
+        display: block;
+        width: 60vh;
+        border-radius: 20px;
+        margin: auto;
+    }
 
     .body h3 {
         margin-top: 400px;
         text-align: center;
     }
+
+    /* Contact */
+
+    
+
+    /* Pied de page */
 
     footer {
         position: absolute;
@@ -100,28 +191,6 @@ body {
 
     /* menu de navigation du header */
 
-    .header ul {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
-
-    .header li {
-        float: left;
-    }
-
-    .header li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 20px;
-        text-decoration: none;
-    }
 
     li a:hover {
         background-color: #111;
@@ -161,8 +230,6 @@ body {
         height: 60vh;
     }
 
-    
-
     .header h1 {
         margin: 0;
         padding-top: 60px;
@@ -174,32 +241,6 @@ body {
 
     /* menu de navigation du header */
 
-    .header ul {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
-
-    .header li {
-        float: left;
-    }
-
-    .header li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 20px;
-        text-decoration: none;
-    }
-
-    li a:hover {
-        background-color: #111;
-    }
 
     /* corp du site */
     .body {
@@ -226,24 +267,20 @@ body {
         color: #111;
     }
 
+    /* Photos */
 
-
-    /* footer | pied de page */
-    
-    
-    footer {
-        position: absolute;
-        bottom: O;
-        width: 100%;
-        margin-top: 50%;
-        padding: 5px 0 5px 0;
-        text-align: center;
-        color: white;
-        background-color: #333;
+    .photos img {
+        height: 400px;
+        width: 300px;
+        border-radius: 20px;
     }
 
-    footer a {
-        text-decoration: none;
-        color: white;
+    .photos {
+        margin-top: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        background-size: cover;
     }
 }

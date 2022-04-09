@@ -205,18 +205,21 @@ footer a {
 @media screen and (min-width: 681px) and (max-width: 1279px) {
     /* header */
 
-    .header {
-        margin-top: 0;
-        height: 200px;
-        background-color: var(--main-color-);
+    section.top-page {
+        background: url("../assets/bee.jpg");
+        background-size: cover;
+        background-position: 50% 25%;
+        height: 50vh;
+        width: 100%;
     }
 
     .header h1 {
         margin: 0;
-        padding-top: 40px;
+        padding-top: 60px;
         text-align: center;
         font-size: 70px;
         font-family: 'Libre Baskerville', serif;
+        color: white;
     }
 
     /* menu de navigation du header */
@@ -227,11 +230,78 @@ footer a {
     }
 
     /* corp du site */
+    .body {
+        margin-top: 50px;
+    }
 
-    .body h3 {
-        margin-top: 400px;
+
+    .body img {
+        display: block;
+        width: 65vh;
+        border-radius: 20px;
+        margin: auto;
+    }
+
+    .texte p {
+        padding-top: 0px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .texte h2 {
+        color: #111;
         text-align: center;
     }
+
+    /* Contact */
+
+    #contact {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact i {
+        margin-right: 2px;
+    }
+
+    #contact a {
+        color: #111;
+    }
+
+    /* tarifs */
+    
+
+    .photos img {
+        height: 28vh;
+        border-radius: 20px;
+    }
+
+    .photos {
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: space-between;
+        background-size: cover;
+    }
+
+    .titre-prix {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .text-prix {
+        position: relative;
+        bottom: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    
 
     footer {
         position: absolute;

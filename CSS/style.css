@@ -61,7 +61,6 @@ ul {
     overflow: scroll;
 }
 
-
 /* footer | pied de page */
     
     
@@ -423,5 +422,11 @@ footer a {
         display: flex;
         align-items: flex-start;
         justify-content: space-around;
+    }
+
+    .photos img {
+        height: 350px;
+        width: 400px;
+        border-radius: 20px;
     }
 }

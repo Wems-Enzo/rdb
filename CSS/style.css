@@ -164,21 +164,11 @@ footer a {
         background-size: cover;
     }
 
-    .titre-prix {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .photos h3 {
         text-align: center;
-
     }
 
-    .text-prix {
-        position: relative;
-        bottom: 20px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        align-items: center;
+    .photos p {
         text-align: center;
     }
 
@@ -205,7 +195,7 @@ footer a {
     /* header */
 
     section.top-page {
-        background: url("../assets/bee.jpg");
+        background: url("../assets/bee.webp");
         background-size: cover;
         background-position: 50% 25%;
         height: 50vh;
@@ -274,7 +264,7 @@ footer a {
     
 
     .photos img {
-        height: 28vh;
+        height: 40vh;
         border-radius: 20px;
     }
 
@@ -287,18 +277,13 @@ footer a {
         background-size: cover;
     }
 
-    .titre-prix {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-around;
+    
+    .photos h3 {
+        text-align: center;
     }
 
-    .text-prix {
-        position: relative;
-        bottom: 20px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-around;
+    .photos p {
+        text-align: center;
     }
     
 
@@ -323,7 +308,7 @@ footer a {
     /* header */
 
     section.top-page {
-        background: url("../assets/bee.jpg");
+        background: url("../assets/bee.webp");
         background-size: cover;
         background-position: 50% 25%;
         height: 60vh;
@@ -363,7 +348,7 @@ footer a {
     }
 
     .texte p {
-        padding-top: 100px;
+        padding-top: 50px;
         text-align: left;
         width: 500px;
     }
@@ -407,26 +392,13 @@ footer a {
         margin-right: 20px;
         display: flex;
         justify-content: space-between;
-        background-size: cover;
     }
 
-    .titre-prix {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-around;
+    .photos h3 {
+        text-align: center;
     }
 
-    .text-prix {
-        position: relative;
-        bottom: 20px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-around;
-    }
-
-    .photos img {
-        height: 350px;
-        width: 400px;
-        border-radius: 20px;
+    .photos p {
+        text-align: center;
     }
 }

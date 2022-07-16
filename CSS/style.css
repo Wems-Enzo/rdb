@@ -23,7 +23,7 @@ ul {
 /* header */
 
 
-.header h1 {
+.top-page h1 {
     font-family: 'Libre Baskerville', serif;
     text-align: center;
 }
@@ -85,23 +85,25 @@ footer a {
 @media screen and (max-width: 680px) {
 
     /* header */
-
     .header {
-        margin-top: 14px;
-        height: 100px;
-        background-color: var(--main-color-);
+        display: none;
     }
 
-    .header h1 {
+    .top-page h1 {
         margin: 0;
-        padding-top: 50px;
-        font-size: 35px;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Libre Baskerville', serif;
+        color: white;
     }
 
-    /* menu de navigation du header */
-
-    .header li a {
-        padding: 18px 10px;
+    section.top-page {
+        background: url("../assets/bee.webp");
+        background-size: cover;
+        background-position: 50% 25%;
+        height: 25vh;
+        width: 100%;
     }
 
     /* corp du site */
@@ -111,9 +113,7 @@ footer a {
     }
 
     .body img {
-        display: block;
-        width: 100%;
-        margin: auto;
+        display: none;
     }
 
 
@@ -152,7 +152,7 @@ footer a {
     
 
     .photos img {
-        width: 40vh;
+        width: 30vh;
         border-radius: 10px;
         margin: 10px;
     }
@@ -181,7 +181,7 @@ footer a {
         position: absolute;
         bottom: O;
         width: 100%;
-        margin-top: 50%;
+        margin-top: 10%;
         padding: 5px 0 5px 0;
         text-align: center;
         color: white;
@@ -321,7 +321,7 @@ footer a {
         height: 60vh;
     }
 
-    .header h1 {
+    .top-page h1 {
         margin: 0;
         padding-top: 60px;
         text-align: center;

@@ -197,7 +197,11 @@ footer a {
 @media screen and (min-width: 681px) and (max-width: 1279px) {
     /* header */
 
-    section.top-page {
+    .header {
+        display: none;
+    }
+
+    .top-page {
         background: url("../assets/bee.webp");
         background-size: cover;
         background-position: 50% 25%;
@@ -205,20 +209,13 @@ footer a {
         width: 100%;
     }
 
-    .header h1 {
+    .top-page h1 {
         margin: 0;
         padding-top: 60px;
         text-align: center;
         font-size: 70px;
         font-family: 'Libre Baskerville', serif;
         color: white;
-    }
-
-    /* menu de navigation du header */
-
-
-    li a:hover {
-        background-color: #111;
     }
 
     /* corp du site */
@@ -280,7 +277,8 @@ footer a {
         margin-left: 50px;
         margin-right: 50px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
         background-size: cover;
     }
 
